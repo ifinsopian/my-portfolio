@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ifin Sopian | Frontend Developer Portfolio</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+	<!-- google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+	
+	<meta name="author" content="ifin sopian">
+	<meta name="keywords" content="Frontend Developer, HTML CSS JavaScript, Web Developer Portfolio.">
+</head>
+<body>
+	<header class="navbar">
+		<div class="container navbar-container">
+			<div class="logo">
+				<a href="#hero" class="logo-text">Portfolio</a>
+			</div>
+			<!-- toggle hamburger menu-->
+			<button class="nav-toggle" aria-label="toggle navigation">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<!-- batas toggle -->
+			<nav class="nav-list" aria-label="Main Navigation" >
+				<!-- screen reader bisa membedakan jika ada 2 nav -->
+				<ul>
+					<li><a href="#hero">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section id="hero" aria-labelledby="hero-title">
+			<div class="container hero-wrapper">
+
+				<div class="content-description" data-aos="fade-up" data-aos-duration="300">
+					<h1 class="title" id="hero-title">Hi, I'm <span>Ifin Sopian</span></h1>
+
+					<p class="subtitle">Frontend Developer (Learning & Building Projects)</p>
+
+					<a href="#about" class="btn-primary">Pelajari lebih lanjut tentang saya</a>
+				</div>	
+
+				<div class="content-image" data-aos="fade-left" data-aos-duration="300">
+					<img src="img/ifin.png" alt="Foto Ifin Sopian, Frontend Developer" loading="lazy">
+				</div>
+
+			</div>
+		</section>
+
+		<section id="about">
+			<div class="container about-wrapper">
+				<h2 class="section-title">About Me</h2>
+
+				<div class="about-content">
+					<p>Saya <strong>Ifin Sopian</strong>, seorang web developer pemula yang sedang fokus mempelajari pengembangan website menggunakan HTML, CSS, dan JavaScript.</p>
+					<p>Saya belajar secara mandiri dengan membangun project sederhana untuk melatih logika, struktur kode, dan desain antarmuka yang rapi serta responsif.</p>
+					<p>Saya memiliki ketertarikan pada pembuatan website yang bersih, mudah digunakan, dan terus berkomitmen untuk meningkatkan kemampuan setiap hari.</p>	
+				</div>
+			</div>
+		</section>
+
+		<section id="skills">
+			<div class="container">
+
+				<h2 class="section-title">My Skills</h2>
+				<p class="section-description">Skill yang sedang saya pelajari dan kembangkan dalam proses menjadi web developer</p>
+
+				<div class="skills-grid">
+					<article class="skill-card" data-aos="fade-right" data-aos-duration="300">
+						<h3>HTML</h3>
+						<p class="skill-level">Level: Basic - Intermediate</p>
+						<ul>
+							<li>Menyusun struktur halaman website dengan rapi</li>
+							<li>Menggunakan semantic HTML untuk meningkatkan keterbacaan struktur</li>
+							<li>Menghubungkan halaman dan section menggunakan anchor</li>
+						</ul>
+					</article>
+
+					<article class="skill-card" data-aos="fade-up" data-aos-duration="300">
+						<h3>CSS</h3>
+						<p class="skill-level">Level: Basic - Intermediate</p>
+						<ul>
+							<li>Mengatur layout menggunakan Flexbox</li>
+							<li>Membuat tampilan website yang responsif</li>
+							<li>Menerapkan hover, transition, dan styling dasar antarmuka</li>
+						</ul>	
+					</article>
+
+					<article class="skill-card" data-aos="fade-left" data-aos-duration="300">
+						<h3>JavaScript</h3>
+						<p class="skill-level">Level: Basic - Intermediate</p>
+						<ul>
+							<li>Melakukan manipulasi DOM sederhana</li>
+							<li>Menggunakan event dasar seperti click</li>
+							<li>Menerapkan logika sederhana untuk interaksi pengguna</li>
+						</ul>
+					</article>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="projects">
+			<div class="container">
+
+				<h2 class="section-title">Projects</h2>
+				<p class="section-description">Beberapa project yang saya kerjakan sebagai bagian dari proses belajar.</p>
+
+				<div class="project-grid">
+				<article class="project-card" data-aos="zoom-in" data-aos-duration="300">
+					<div class="project-image">
+						<img src="img/my-portfolio.png" alt="Personal Portfolio Website" loading="lazy">
+					</div>
+
+					<div class="project-content">
+						<h3>Personal Portfolio Website</h3>
+						<p class="project-status">Status: In Progress</p>
+
+						<p>Website portfolio pribadi yang saya bangun dari nol menggunakan HTML dan CSS untuk melatih struktur halaman, layout, dan tampilan responsif.</p>
+						<p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+					</div>
+				</article>
+
+				<article class="project-card" data-aos="zoom-in" data-aos-duration="300">
+					<div class="project-image">
+						<img src="img/startupx-landing-page.png" alt="Startupx-Landing-Page" loading="lazy">
+					</div>
+
+					<div class="project-content">
+						<h3>Startupx Landing Page</h3>
+						<p class="project-status">Status: In Progress</p>
+
+						<p>StartUpX adalah landing page startup modern yang dibuat menggunakan HTML, CSS, dan JavaScript dengan desain responsif dan tampilan UI yang bersih.</p>
+						<p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+					</div>
+				</article>
+				</div>
+
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="container">
+				<h2 class="section-title">Contact</h2>
+				<p>Saya terbuka untuk diskusi, kerja sama, atau peluang belajar di bidang web development. Jangan ragu untuk menghubungi saya melalui kontak di bawah ini.</p>
+
+				<address class="contact-info">
+					<p>
+						<strong>Email :</strong>
+						<a href="mailto:ifinsopian@gmail.com">Ifinsopian@gmail.com</a>
+					</p>
+					<p>
+						<strong>LinkedIn :</strong>
+						<a href="..." target="_blank" rel="noopener noreferrer">LinkdIn Profile</a>
+					</p>
+					<p>
+						<strong>GitHub :</strong>
+						<!-- pakai rel kalau link eksternal ada target _blank keamanan dan privacy-->
+						<a href="..." target="_blank" rel="noopener noreferrer">github.com/ifinsopian</a>
+					</p>
+				</address>
+			</div>
+		</section>
+	</main>
+
+	<script>
+		const toggle = document.querySelector(".nav-toggle");
+		const nav = document.querySelector(".nav-list");
+
+		toggle.addEventListener("click", () => {
+			nav.classList.toggle("active");
+			toggle.classList.toggle("active");
+		});
+	</script>
+	  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
