@@ -26,6 +26,8 @@ body{
 	/* tambahan */
 	display: flex;
 	flex-direction: column;
+
+	overflow-x: hidden;
 }
 
 .container{
@@ -476,4 +478,5 @@ h1{
 .contact-info{
 	padding: 1.5rem;
 }
+
 }
